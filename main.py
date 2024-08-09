@@ -50,7 +50,7 @@ def index():
         a=140
         print("Basladi")
         while (a >= 0):
-            print(a)
+            print("Estimated Time",a)
             time.sleep(1)
             a -= 1
         print("Bitdi")
