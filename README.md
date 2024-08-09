@@ -59,4 +59,6 @@ You can install all dependencies using the provided `requirements.txt` file.
 ## Contributors
 
 - **Author:** Ulvi Abbasli
+- **Supporter:** Turan Aliyev
+- **First Checker:** Nihat Abdullazade
 
