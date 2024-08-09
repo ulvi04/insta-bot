@@ -37,14 +37,14 @@ def index():
         driver.maximize_window()
 
         # Fill out the form on the external site
-        driver.find_element_by_xpath("/html/body/section[2]/div/div/div[2]/div/div[2]/form/div[1]/div/input").send_keys("Rastgele Kisi")
-        driver.find_element_by_xpath("/html/body/section[2]/div/div/div[2]/div/div[2]/form/div[2]/div/input").send_keys("Bos Meslek")
-        driver.find_element_by_xpath("/html/body/section[2]/div/div/div[2]/div/div[2]/form/div[3]/div/input").send_keys("Mukemmel bir site takipci kasmak icin, sizde deneyin")
-        driver.find_element_by_xpath("/html/body/section[2]/div/div/div[2]/div/div[2]/form/div[3]/button").click()
+        driver.find_element("xpath","/html/body/section[2]/div/div/div[2]/div/div[2]/form/div[1]/div/input").send_keys("Rastgele Kisi")
+        driver.find_element("xpath","/html/body/section[2]/div/div/div[2]/div/div[2]/form/div[2]/div/input").send_keys("Bos Meslek")
+        driver.find_element("xpath","/html/body/section[2]/div/div/div[2]/div/div[2]/form/div[3]/div/input").send_keys("Mukemmel bir site takipci kasmak icin, sizde deneyin")
+        driver.find_element("xpath","/html/body/section[2]/div/div/div[2]/div/div[2]/form/div[3]/button").click()
 
-        driver.find_element_by_xpath("/html/body/section[2]/div/div/div[1]/div/div[2]/form/div[1]/div[1]/input").send_keys(username)
-        driver.find_element_by_xpath("/html/body/section[2]/div/div/div[1]/div/div[2]/form/div[2]/div/input").send_keys(45)
-        driver.find_element_by_xpath("/html/body/section[2]/div/div/div[1]/div/div[2]/form/div[3]/button").click()
+        driver.find_element("xpath","/html/body/section[2]/div/div/div[1]/div/div[2]/form/div[1]/div[1]/input").send_keys(username)
+        driver.find_element("xpath","/html/body/section[2]/div/div/div[1]/div/div[2]/form/div[2]/div/input").send_keys(45)
+        driver.find_element("xpath","/html/body/section[2]/div/div/div[1]/div/div[2]/form/div[3]/button").click()
 
         # Wait for some time while scraping follower data
         a=140
