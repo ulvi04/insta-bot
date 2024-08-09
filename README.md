@@ -50,6 +50,3 @@ You can install all dependencies using the provided `requirements.txt` file.
 
 - **Author:** Ulvi Abbasli
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
