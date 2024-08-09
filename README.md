@@ -6,17 +6,27 @@ Insta-Bot is an advanced automation tool designed to rapidly boost your Instagra
 
 To install Insta-Bot, follow these steps:
 
-1. Clone the repository:
+1. Install Git:
+    ```bash
+    winget install --id Git.Git -e --source winget
+    ```
+    
+2. Install Python:
+    ```bash
+    winget install -e --id Python.Python.3.11
+    ```
+
+3. Clone the repository:
     ```bash
     git clone https://github.com/ulvi04/insta-bot.git
     ```
 
-2. Navigate to the project directory:
+4. Navigate to the project directory:
     ```bash
     cd insta-bot
     ```
 
-3. Install the required dependencies:
+5. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
