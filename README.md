@@ -17,16 +17,21 @@ To install Insta-Bot, follow these steps:
     ```
 
 3. Clone the repository:
-        ```bash
-        git clone https://github.com/ulvi04/insta-bot.git
-        ```
+   3.1. Install it with Git:
+   ```bash
+   git clone https://github.com/ulvi04/insta-bot.git
+    ```
+   3.2. Install it manually:
+    ```bash
+   Click Code, download Zip file, then unzip that
+    ```
 
-4. Navigate to the project directory:
+5. Navigate to the project directory:
     ```bash
     cd insta-bot
     ```
 
-5. Install the required dependencies:
+6. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
