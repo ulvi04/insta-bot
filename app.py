@@ -31,7 +31,7 @@ def index():
         # Initialize Selenium WebDriver
         chrome_options = Options()
         chrome_options.add_argument("--headless=new") # for Chrome >= 109
-        service = Service(r"./chromedriver.exe")
+        service = Service("/usr/bin/chromedriver")
         driver = webdriver.Chrome(service=service, options=chrome_options)
         driver.get("https://instaavm.com/instagram-ucretsiz-takipci/")
         driver.maximize_window()
