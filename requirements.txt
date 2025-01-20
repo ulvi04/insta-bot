@@ -2,3 +2,9 @@ selenium>=4.1.3
 requests>=2.25.1  
 beautifulsoup4>=4.12.2  
 Flask>=3.0.2
+Flask-SQLAlchemy
+qrcode[pil]
+selenium
+beautifulsoup4
+requests
+gunicorn
