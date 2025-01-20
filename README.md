@@ -43,7 +43,7 @@ To use Insta-Bot, follow these steps:
 
 1. Run the bot:
     ```bash
-    python main.py
+    python app.py
     ```
 
 2. Open your web browser and navigate to:
